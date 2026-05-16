@@ -1,10 +1,20 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from src.backend.routes import design_route
 
 app = FastAPI(
     title="AutoSysDesign Crew API",
     description="FastAPI backend for AI Crew system design generator",
     version="1.0.0"
+)
+
+# Enable CORS for the React Frontend
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"], # In production, restrict this to the frontend URL
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 # Include the design routes
