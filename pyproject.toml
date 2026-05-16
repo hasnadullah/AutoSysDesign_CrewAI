@@ -1,0 +1,10 @@
+[project]
+name = "ai-crew-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "crewai[google-genai,tools]>=1.14.4",
+    "python-dotenv>=1.2.2",
+]

@@ -1,0 +1,38 @@
+analyst_task:
+  description: >
+    Analyze the given requirement and:
+    - Clarify what is being asked
+    - List assumptions
+    - Identify risks and ambiguities
+
+    Requirement:
+    {input}
+  expected_output: >
+    Structured analysis with assumptions, risks, and clarified understanding.
+  agent: analyst
+
+engineer_task:
+  description: >
+    Based on analyst output, design a solution:
+    - Provide system design
+    - List implementation steps
+    - Include simple pseudo-code if needed
+  expected_output: >
+    Clear technical design and implementation plan.
+  agent: engineer
+
+reviewer_task:
+  description: >
+    Review previous outputs and produce FINAL answer ONLY in valid JSON.
+
+    JSON must include:
+    - assumptions
+    - risks
+    - implementation_steps
+    - test_plan
+    - open_questions
+
+    No markdown. No explanation. Only JSON.
+  expected_output: >
+    Strict valid JSON output only.
+  agent: reviewer
