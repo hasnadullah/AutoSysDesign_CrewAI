@@ -23,16 +23,11 @@ engineer_task:
 
 reviewer_task:
   description: >
-    Review previous outputs and produce FINAL answer ONLY in valid JSON.
-
-    JSON must include:
-    - assumptions
-    - risks
-    - implementation_steps
-    - test_plan
-    - open_questions
-
-    No markdown. No explanation. Only JSON.
+    Review the previous outputs from the Analyst and Engineer.
+    Synthesize their findings into a cohesive, conversational response.
+    
+    Structure your answer in readable paragraphs and bullet points, just like a helpful AI chatbot.
+    Explain the assumptions, risks, implementation steps, and open questions naturally. No raw JSON.
   expected_output: >
-    Strict valid JSON output only.
+    A comprehensive, chatbot-style conversational response in rich Markdown formatting.
   agent: reviewer
