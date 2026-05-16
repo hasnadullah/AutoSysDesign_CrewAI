@@ -19,7 +19,7 @@ export default function Sidebar({ mobileOpen, handleDrawerToggle, isMobile }) {
                     +
                 </Box>
                 <Typography variant="h6" sx={{ fontWeight: 700, letterSpacing: '-0.5px' }}>
-                    Cortex
+                    AutoSysDesign
                 </Typography>
             </Box>
 

@@ -47,7 +47,7 @@ export default function ChatPage() {
             {/* Topbar: Must not shrink */}
             <Box sx={{ flexShrink: 0, display: 'flex', justifyContent: 'space-between', alignItems: 'center', p: 1.5, px: 3, borderBottom: messages.length > 0 ? '1px solid #f1f5f9' : 'none' }}>
                 <Button endIcon={<ExpandMoreIcon />} sx={{ textTransform: 'none', color: '#1e293b', fontWeight: 600, fontSize: '1.1rem', bgcolor: '#f8fafc', borderRadius: 8, px: 2 }}>
-                    Cortex
+                    AutoSysDesign
                 </Button>
                 <Box sx={{ display: 'flex', gap: 1, alignItems: 'center' }}>
                     <IconButton size="small"><MoreHorizIcon /></IconButton>
