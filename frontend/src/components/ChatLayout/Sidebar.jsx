@@ -102,7 +102,7 @@ export default function Sidebar({ mobileOpen, handleDrawerToggle, isMobile }) {
             <Box sx={{ mt: 'auto', pt: 2, display: 'flex', alignItems: 'center', p: 1, borderRadius: 2, bgcolor: '#ffffff', boxShadow: '0 2px 10px rgba(0,0,0,0.02)' }}>
                 <Avatar src="https://i.pravatar.cc/150?img=11" sx={{ width: 36, height: 36, mr: 1.5 }} />
                 <Box sx={{ flexGrow: 1 }}>
-                    <Typography sx={{ fontSize: '0.85rem', fontWeight: 600 }}>Emerson Sterling</Typography>
+                    <Typography sx={{ fontSize: '0.85rem', fontWeight: 600 }}>Hasnad khan</Typography>
                     <Typography sx={{ fontSize: '0.75rem', color: '#94a3b8' }}>hasnadk676@gmail.com</Typography>
                 </Box>
                 <IconButton size="small">
