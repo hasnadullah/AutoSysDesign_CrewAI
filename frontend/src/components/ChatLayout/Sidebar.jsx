@@ -103,7 +103,7 @@ export default function Sidebar({ mobileOpen, handleDrawerToggle, isMobile }) {
                 <Avatar src="https://i.pravatar.cc/150?img=11" sx={{ width: 36, height: 36, mr: 1.5 }} />
                 <Box sx={{ flexGrow: 1 }}>
                     <Typography sx={{ fontSize: '0.85rem', fontWeight: 600 }}>Emerson Sterling</Typography>
-                    <Typography sx={{ fontSize: '0.75rem', color: '#94a3b8' }}>sterlingr@gmail.com</Typography>
+                    <Typography sx={{ fontSize: '0.75rem', color: '#94a3b8' }}>hasnadk676@gmail.com</Typography>
                 </Box>
                 <IconButton size="small">
                     <LogoutIcon fontSize="small" sx={{ color: '#64748b' }} />
