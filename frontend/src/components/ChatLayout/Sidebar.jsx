@@ -80,7 +80,7 @@ export default function Sidebar({ mobileOpen, handleDrawerToggle, isMobile }) {
             <List sx={{ flexGrow: 1, overflowY: 'auto', px: 0 }}>
                 {chats.length > 0 && (
                     <Typography variant="caption" sx={{ px: 2, py: 1, color: '#94a3b8', fontWeight: 600, display: 'block' }}>
-                        Today
+                        Chats
                     </Typography>
                 )}
                 {chats.map((chat) => (
